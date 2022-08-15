@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864b657a341a05c4d89ae9331ab979c0, type: 3}
+  m_Name: Wall Climb State
+  m_EditorClassIdentifier: 
+  stateTransitionEachFrame: 0
+  hasExitTime: 1
+  exitTime: 1.133
+  defaultNextState: {fileID: 11400000, guid: aacdff07b1c71fe429eaaff7b90d9a59, type: 2}
+  hookingData: {fileID: 11400000, guid: 25f0965aa03cddd4dafa2c901e9edf98, type: 2}
+  forwardPosition: 0.25
+  positionY: 0.5
+  radius: 0.2
+  floorDetectionDistance: 1

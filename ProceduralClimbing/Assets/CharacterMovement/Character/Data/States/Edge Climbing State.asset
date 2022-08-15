@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b05b5b5f5d01c7d4e9e3eb517533d11e, type: 3}
+  m_Name: Edge Climbing State
+  m_EditorClassIdentifier: 
+  stateTransitionEachFrame: 0
+  hasExitTime: 0
+  exitTime: 0
+  defaultNextState: {fileID: 11400000, guid: 96d652a8f2516544a9680d783feeaeac, type: 2}
+  sphere: {fileID: 1137409987563093796, guid: 92c54a77381dc2246bf01e2752136c0f, type: 3}
+  lineRenderer: {fileID: 2247946564240229790, guid: aaa0d384e707b0d4d93ae700d7446162, type: 3}
+  hookingData: {fileID: 11400000, guid: 25f0965aa03cddd4dafa2c901e9edf98, type: 2}
+  handPosition: {fileID: 11400000, guid: ceccc923be70e904993ec72fe07608d0, type: 2}
+  bodyEffector: {fileID: 11400000, guid: acab31adcb2d9cf40b05a7f4325e36eb, type: 2}
+  effectorTargetLerpTime: 0.5
+  movementType: 16
+  handTraversalRadius: 0.66
+  edgeSwapThresholdY: 0.66
+  edgeSwapThresholdXZ: 0.99
+  wallClimbState: {fileID: 11400000, guid: d8e8ff99385dbde4a99061fe78df8163, type: 2}
+  freeClimbingState: {fileID: 11400000, guid: 6b3fd5c3ffc83da4cbaa8965613eff7c, type: 2}

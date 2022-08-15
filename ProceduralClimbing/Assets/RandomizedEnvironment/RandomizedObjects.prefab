@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1100444478290857093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1100444478290857094}
+  - component: {fileID: 1100444478290857095}
+  m_Layer: 0
+  m_Name: RandomizedObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1100444478290857094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100444478290857093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1100444478290857095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100444478290857093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a531340c82209c41a5bf2ede7de6689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeIterations: 1000
+  placeObjects:
+  - spawnChance: 20
+    prefab: {fileID: 2765075023489016845, guid: 687dbafc2b84b2846b9a4a7a7dae2a7e, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 1}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 20
+    prefab: {fileID: 3051928965768018776, guid: 7b846d8f536f007498c941069487ce81, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 1}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 2
+    prefab: {fileID: 8585387905218658219, guid: 79e624e6a8770a946afb866fd94b394b, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 0}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 1
+    prefab: {fileID: 7561066613761435406, guid: 50a0925b0c22af146a2d15615f815a1c, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 0}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 10
+    prefab: {fileID: 1604908963751126680, guid: e5d7b87d422ee0f478ee09eb32e24f4e, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 0}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 10
+    prefab: {fileID: 7993119983977949264, guid: 9eb847ab97b24024588682c8601254cf, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 0}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 4
+    prefab: {fileID: 5849737826041046614, guid: 455a42251a44b854e960ad5bde08af22, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: -1, y: 1}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 20
+    prefab: {fileID: 5181888829571552460, guid: ef34774e47b84874ba0b8e8a7feebc61, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: -1, y: 3}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 20
+    prefab: {fileID: 5290258576645029221, guid: 62bb5a118fbb9b04586ef6d77f608abe, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 3}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 20
+    prefab: {fileID: 8783253389511764105, guid: 7e691bdbb3b1b6e4bae25281b4b35aa3, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: -1, y: 3}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 20
+    prefab: {fileID: 7987501407868304189, guid: c9b8c2924d0d01d46abfc67f72f3fad2, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 3}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 20
+    prefab: {fileID: 7596564103917229780, guid: 10bc3994f0ef0944190ed83bb446e7f0, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: -6, y: 0}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 10
+    prefab: {fileID: 7030583758462172236, guid: 03c1e4af9bcda744db0545e329300c71, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 3}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 10
+    prefab: {fileID: 1698313044003449877, guid: 4828d487d65f04342870312f25e638df, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 3}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 10
+    prefab: {fileID: 1516241694631303503, guid: 1eacd02f678a3bf46a1a1e74795ab8e2, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: -2, y: 0}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 10
+    prefab: {fileID: 7752386350170343330, guid: f215ee89be0094e4ebe05e9fcfb9f13f, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 3}
+    zPositionRange: {x: -30, y: 30}
+  - spawnChance: 3
+    prefab: {fileID: 3407445009539430313, guid: 5985bff4bf76adc4b93409ef0476c670, type: 3}
+    xPositionRange: {x: -30, y: 30}
+    yPositionRange: {x: 0, y: 3}
+    zPositionRange: {x: -30, y: 30}

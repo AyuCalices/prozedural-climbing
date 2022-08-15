@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c9fc85fb0b89d468f8f0f46db664ed, type: 3}
+  m_Name: Body Effector
+  m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 2247946564240229790, guid: aaa0d384e707b0d4d93ae700d7446162, type: 3}
+  handPosition: {fileID: 11400000, guid: ceccc923be70e904993ec72fe07608d0, type: 2}
+  armAngleScaling: 1.3
+  rootMovementHeight: 0.33
+  edgeToLeftFootDir: {x: -0.014586443, y: -0.95984817, z: -0.072808266}
+  edgeToRightFootDir: {x: 0.03280115, y: -0.87178123, z: -0.04755592}
+  armCenterDirection: {x: 0.12705898, y: 0.89848864, z: -0.010111809}
+  raycastDistance: 1.65
+  raycastBackDistance: 0.55
+  raycastHeight: 1
+  lowerRaycastCount: 6
+  lowerRaycastDistance: 0.05

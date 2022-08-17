@@ -22,3 +22,4 @@ This repository is archived. Which means, it is read-only. If you want to use th
 * Unity Technologies: [Animation Rigging](https://docs.unity3d.com/Packages/com.unity.animation.rigging@0.2/manual/index.html)
 * Unity Technologies: [Starter Assets - Third Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)
 * Dented Pixel: [LeanTween](https://assetstore.unity.com/packages/tools/animation/leantween-3595)
+* Winglett Entertainment: [Low Poly Cliff](https://www.youtube.com/watch?v=Os3SYeD6R3k&t)

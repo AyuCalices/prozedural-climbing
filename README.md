@@ -5,7 +5,7 @@ This project was made in Unity using C# for a bachelor's thesis at HTW Berlin, G
 * Edge Climbing: the character detects edges automatically and climbs between them.
 * Free Climbing: the character deteminds hooking points by raycasts to potential new positions and moves towards them.
 
-This repository is archived. Which means, it is read-only. If you want to use the project files in unity, please fork this repository. The pre-release can be downloaded [here](https://github.com/AyuCalices/prozedural-climbing/releases).
+This repository is archived. Which means, it is read-only. If you want to use the project files in unity, please fork this repository. The release can be downloaded [here](https://github.com/AyuCalices/prozedural-climbing/releases).
 
 ## Controls
 * W,A,S,D to move around (also during climbing)

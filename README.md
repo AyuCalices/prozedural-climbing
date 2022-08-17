@@ -15,5 +15,9 @@ This repository is archived. Which means, it is read-only. If you want to use th
 * Left Mouse Button to start climbing during the wall run or while the character is in the air while a hooking point is in reach
 * E to quit climbing
 
-
 ## Credits
+
+
+:wrench: **Utils**
+* Mixamo: [Animation for 3D Characters](https://www.mixamo.com/#/)
+* IntoTheDev: Object-Pooling-For-Unity](https://github.com/IntoTheDev/Object-Pooling-for-Unity)

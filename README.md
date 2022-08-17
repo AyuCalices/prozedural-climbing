@@ -7,6 +7,8 @@ The thesis is about procedural climbing animations in Unity. This repository rep
 
 This repository is archived. Which means, it is read-only. If you want to use the project files in unity, please fork this repository.
 
+The pre-release can be downloaded [here](https://github.com/AyuCalices/prozedural-climbing/releases).
+
 ## Controls
 * W,A,S,D to move around (also during climbing)
 * Shift to Sprint
